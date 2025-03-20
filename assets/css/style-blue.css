@@ -2035,8 +2035,8 @@ input::placeholder {
       flex-basis: 220px;
   padding-right: 30px;
 }
-.logo a img {
-  max-width: 160px;
+.logo img {
+  max-width: 560px;
 }
 
 .header-navigation {
@@ -11869,6 +11869,7 @@ a.scroll-top.show {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 30px;
+  margin-left: 50px !important;
 }
 .single-contact-icon-info__image {
   margin-right: 15px;
@@ -11885,10 +11886,20 @@ a.scroll-top.show {
     font-size: calc(1.3rem + 0.6vw);
   }
 }
+@media (max-width: 992px) {
+  .contact-box {
+    margin-left: 50px;
+  }
+}
+
 .single-contact-icon-info__content .title {
   font-size: 0.875rem;
   font-weight: 700;
   margin-bottom: 10px;
+  font-family: "Roboto", sans-serif !important;
+}
+.single-contact-icon-info__content p{
+  color: white !important;
 }
 .single-contact-icon-info--style2 {
   margin-bottom: 0;
@@ -12267,6 +12278,10 @@ a.scroll-top.show {
 .single-industry-icon__content .title a {
   -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  
+}
+.single-contact-icon-info {
+  margin-left: 50px;
 }
 .single-industry-icon__content .title a:hover {
   color: #0C95EC;
@@ -12919,3 +12934,9 @@ a.scroll-top.show {
 }
 
 /*=====  End of industry tab  ======*/
+.contact-box-clm{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
