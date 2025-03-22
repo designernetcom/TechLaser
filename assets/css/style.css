@@ -17375,17 +17375,17 @@ ul{
   margin-top: 20px;
 }
 .ss-name-plate-bg{
-  background-image: url(/assets/img/backgrounds/ss-bg-01.png);
+  background-image: url(assets/img/backgrounds/ss-bg-01.png);
   height: 300px;
   background-position: center;
 }
 .Aluminium-Name-Plates-bg{
-  background-image: url(/assets/img/backgrounds/product-bg-02.png);
+  background-image: url(assets/img/backgrounds/product-bg-02.png);
   height: 300px;
   background-position: center;
 }
 .Laser-Marking-bg{  
-    background-image: url(/assets/img/backgrounds/product-03-bg.png);
+    background-image: url(assets/img/backgrounds/product-03-bg.png);
     height: 300px;
     background-position: center;
 }
@@ -17396,7 +17396,7 @@ ul{
   color: #f7af05;
 }
 .Steel-Barcode-Labels-bg{
-  background-image: url(/assets/img/backgrounds/fourth-product-bg.png);
+  background-image: url(assets/img/backgrounds/fourth-product-bg.png);
   height: 300px;
   background-position: center;
   display: flex;
@@ -17405,7 +17405,7 @@ ul{
   color: #f7af05;
 }
 .metal-tag-bg{
-  background-image: url(/assets/img/backgrounds/metal-tag-bg.png);
+  background-image: url(assets/img/backgrounds/metal-tag-bg.png);
   height: 300px;
   background-position: center;
   display: flex;
@@ -17414,7 +17414,7 @@ ul{
   color: #f7af05;
 }
 .laer-marking-bg{
-  background-image: url(/assets/img/backgrounds/laser-markong-bg.png);
+  background-image: url(assets/img/backgrounds/laser-markong-bg.png);
   height: 300px;
   background-position: center;
   display: flex;
@@ -17423,7 +17423,7 @@ ul{
   color: #f7af05;
 }
 .gallary-bg{
-  background-image: url(/assets/img/backgrounds/laser-markong-bg.png);
+  background-image: url(assets/img/backgrounds/laser-markong-bg.png);
   height: 300px;
   background-position: center;
   display: flex;
@@ -17432,7 +17432,7 @@ ul{
   color: #f7af05;
 }
 .contact-bg{
-  background-image: url(/assets/img/banner/contact-us-banner-01.jpg);
+  background-image: url(assets/img/banner/contact-us-banner-01.jpg);
   height: 300px;
   display: flex;
   align-items: center;
@@ -17442,7 +17442,7 @@ ul{
   background-repeat: no-repeat;
 }
 .About-us-bg{
-  background-image: url(/assets/img/banner/About-banner-01.jpg);
+  background-image: url(assets/img/banner/About-banner-01.jpg);
   height: 300px;
   display: flex;
   align-items: center;
@@ -17462,7 +17462,7 @@ ul{
     background-position: center;
   }
   .About-us-bg{
-    background-image: url(/assets/img/banner/Laser-Engraving-Metal-banner.jpg);
+    background-image: url(assets/img/banner/Laser-Engraving-Metal-banner.jpg);
     height: 300px;
     display: flex;
     align-items: center;
