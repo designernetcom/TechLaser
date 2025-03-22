@@ -86,10 +86,14 @@ background-color: #152036;
 }
 .main-body{
   background-color: rgba(105, 105, 105, 0.132);
+  position: relative;
+  
+  
 }
 
 .header-area {
-  background-color: #152036;
+   background-color: #152036; 
+  
   -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
           box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
 }
@@ -2478,12 +2482,7 @@ input::placeholder {
 .header-navigation--header-default .header-navigation__nav {
   padding: 0;
 }
-.header-navigation--header-default .header-navigation__nav nav > ul > li {
-  border-left: 1px solid #eee;
-}
-.header-navigation--header-default .header-navigation__nav nav > ul > li:last-child {
-  border-right: 1px solid #eee;
-}
+
 .header-navigation--header-default .header-navigation__nav nav > ul > li > a {
   padding: 25px 20px;
 }
@@ -2802,6 +2801,9 @@ input::placeholder {
   color: #888;
   font-size: 1.125rem;
 }
+.header-navigation-container{
+
+}
 .social-links--style3 ul li a {
   color: #bdbdbd;
   font-size: 1.125rem;
@@ -2843,6 +2845,19 @@ input::placeholder {
   background-color: #ffffff;
   -webkit-box-shadow: 0 10px 37px rgba(0, 0, 0, 0.07);
           box-shadow: 0 10px 37px rgba(0, 0, 0, 0.07);
+}
+.submenu li{
+  border-bottom: 2px solid black; 
+}
+.submenu li a{
+  color: #02023a;
+  font-size: 17px;
+}
+.history-grid__single .content-body{
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.8px;
+  font-weight: 500;
 }
 .megamenu--home-variation {
   display: -webkit-box;
@@ -3518,8 +3533,8 @@ input::placeholder {
   padding: 12px 0 14px 10px;
   border-top: 1px solid #333333;
 }
-.mobile-menu-overlay__body .offcanvas-navigation > ul > li.has-children .sub-menu li {
-  border-bottom: 1px solid #333333;
+.nav-sub-menu-hr hr {
+  margin: 0 !important;
 }
 .mobile-menu-overlay__body .offcanvas-navigation > ul > li.has-children .sub-menu li a {
   font-size: 15px;
@@ -3527,7 +3542,7 @@ input::placeholder {
   line-height: 1.5;
   display: block;
   padding: 10px 0;
-  color: rgba(255, 255, 255, 0.7);
+  color: #f7af05;
 }
 .mobile-menu-overlay__body .offcanvas-navigation > ul > li.has-children .sub-menu li a:hover {
   color: #ffffff;
@@ -3576,6 +3591,7 @@ input::placeholder {
   font-weight: 500;
   content: "\f3d3";
 }
+
 
 /* minicart */
 .minicart-product-wrapper {
@@ -4328,8 +4344,11 @@ input::placeholder {
   max-width: 220px;
 }
 .footer-widget p{
-  color: black !important;
+  color: rgb(255, 255, 255) !important;
   font-size: 18px;
+}
+.footer-widget i{
+  font-size: 23px !important;
 }
 .footer-desc {
   color: #ffffff;
@@ -4436,7 +4455,7 @@ input::placeholder {
   }
 }
 .footer-widget__title {
-  color: #000000;
+  color: #f7af05;
   margin-bottom: 40px;
   font-size: 18px;
 }
@@ -4491,7 +4510,7 @@ input::placeholder {
   text-decoration: underline;
 }
 .footer-widget__navigation--address li {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgb(255, 255, 255);
 }
 .footer-widget__navigation--address li i {
   font-size: 1.125rem;
@@ -4598,6 +4617,9 @@ input::placeholder {
   color: #000000;
   font-size: 20px;
   font-weight: 400;
+}
+.footer-copyright-wrapper a:hover{
+  color:#f7af05 !important; 
 }
 @media only screen and (max-width: 767px) {
   .footer-copyright-wrapper {
@@ -11892,7 +11914,7 @@ a.scroll-top.show {
 }
 .project-grid-post__area{
   /* background-color: rgba(0, 0, 0, 0.664); */
-  background-color: whitesmoke !important;
+  background-color: #152036e3 !important;
   padding-top: 50px;
 }
 .project-grid-post__area-about{
@@ -12313,6 +12335,10 @@ a.scroll-top.show {
   font-weight: 700;
   margin-bottom: 10px;
   color: black !important;
+}
+.single-contact-icon-info__image i{
+  font-size: 35px;
+  font-weight: 700 !important;
 }
 .single-contact-icon-info--style2 {
   margin-bottom: 0;
@@ -13677,13 +13703,14 @@ a.scroll-top.show {
 =============================================*/
 .image-gallery-slider-big__container-area {
   position: relative;
+  height: 600px !important;
 }
 .image-gallery-slider-big__container-area .ht-swiper-button-nav {
   background-color: #ffffff;
   border-color: #ffffff;
 }
 .image-gallery-slider-big__container-area .ht-swiper-button-nav:hover {
-  background-color: #ffc246;
+  background-color: #f7af05;
   border-color: #ffc246;
   color: #ffffff;
 }
@@ -13761,7 +13788,7 @@ a.scroll-top.show {
   opacity: 1;
 }
 .single-list-blog-post__media .blog-post-image-gallery .swiper-pagination-bullet:hover, .single-list-blog-post__media .blog-post-image-gallery .swiper-pagination-bullet-active {
-  background-color: #ffc246;
+  background-color:#f7af05;
 }
 .single-list-blog-post__media .blog-post-link {
   padding: 80px 100px;
@@ -14980,18 +15007,25 @@ a.scroll-top.show {
 .history-grid__single {
   position: relative;
   background: #fff;
+ 
   -webkit-box-shadow: 0 5px 40px rgba(0, 0, 0, 0.11);
           box-shadow: 0 5px 40px rgba(0, 0, 0, 0.11);
 }
+.history-grid__single:hover{
+  transform: translateY(-20px);
+  transition: .5s !important;
+  
+}
 .history-grid__single .content-head {
   padding: 15px 20px;
-  background-color: #ffc246;
-  font-size: 1.125rem;
+  background-color: #f7af05;
+  font-size: 20px;
   font-weight: 700;
   color: #222;
 }
 .history-grid__single .content-body {
   padding: 20px 20px 25px;
+
 }
 .history-grid__single .content-body .image {
   margin-bottom: 25px;
@@ -17328,6 +17362,7 @@ a.scroll-top.show {
   color: #f7af05;
  padding-right: 10px;
  font-weight: 800;
+ display: none !important;
 }
 .sub-li{
   color:#05103B;
@@ -17387,6 +17422,56 @@ ul{
   font-size: 30px !important;
   color: #f7af05;
 }
+.gallary-bg{
+  background-image: url(/assets/img/backgrounds/laser-markong-bg.png);
+  height: 300px;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  font-size: 30px !important;
+  color: #f7af05;
+}
+.contact-bg{
+  background-image: url(/assets/img/banner/contact-us-banner-01.jpg);
+  height: 300px;
+  display: flex;
+  align-items: center;
+  font-size: 30px !important;
+  color: #f7af05;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.About-us-bg{
+  background-image: url(/assets/img/banner/About-banner-01.jpg);
+  height: 300px;
+  display: flex;
+  align-items: center;
+  font-size: 30px !important;
+  color: #f7af05;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width:600px) {
+  .contact-bg{
+  background-position: center;
+  background-size: cover;
+  }
+  .gallary-bg{
+    background-size: cover;
+    background-position: center;
+  }
+  .About-us-bg{
+    background-image: url(/assets/img/banner/Laser-Engraving-Metal-banner.jpg);
+    height: 300px;
+    display: flex;
+    align-items: center;
+    font-size: 30px !important;
+    color: #f7af05;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
 
 .ss-name-plate-bg{
   display: flex;
@@ -17398,4 +17483,47 @@ ul{
   display: flex;
   align-items: center;
   font-size: 30px !important;
+}
+.social-links i{
+  font-size: 37px !important;
+
+}
+.fix-social-logo img{
+  height: 50px;
+}
+.fix-social-logo{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  right: 10px;
+  position: absolute;
+  top: 320px;
+  position: fixed;
+  z-index: 999;
+}
+@media (max-width:600px) {
+  .fix-social-logo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: absolute;
+    position: fixed;
+  }
+  .fix-social-logo img{
+    max-width: 50px;
+  }
+}
+.multilavel-anchortag{
+  font-size: 19px !important;
+  color: black !important;
+  font-weight: 600;
+}
+.multilavel-anchortag :hover{
+  color:#f7af05 !important;
+
+}
+.three-bar-menu{
+  position: relative;
+  right: 20px;
+  top: -10px;
 }
