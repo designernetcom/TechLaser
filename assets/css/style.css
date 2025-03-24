@@ -3460,7 +3460,7 @@ input::placeholder {
           transform: translateX(0);
 }
 .mobile-menu-overlay__header {
-  padding: 30px 0;
+  padding: 20px 0;
   background-color: #152036;
 }
 .mobile-menu-overlay__header .mobile-navigation-close-icon i {
@@ -5174,7 +5174,7 @@ input::placeholder {
 }
 .ht-btn--default:hover, .ht-btn--default:focus {
   background-color: #222;
-  color: #ffffff;
+  color: #000000;
 }
 .ht-btn--dark {
   display: inline-block;
@@ -5271,7 +5271,7 @@ input::placeholder {
   font-weight: 700;
   text-transform: uppercase;
   
-  color: #000000 !important;
+  color: #ffffff !important;
   background-color:#f7af05 !important;
   letter-spacing: 1px;
   -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -5281,7 +5281,7 @@ input::placeholder {
 .ht-btn--default:hover {
   background-color: #222;
  
- color: white !important;
+ color: rgb(0, 0, 0) !important;
 }
 .ht-btn--default--style2 {
   color: #ffffff;
@@ -5400,7 +5400,7 @@ input::placeholder {
   letter-spacing: 0.5px;
   overflow: hidden;
   z-index: 1;
-  color: #000000;
+  color: #ffffff;
   background-color:#f7af05 ;
   position: relative;
 }
@@ -5699,6 +5699,7 @@ input::placeholder {
   line-height: 1.3;
   margin-bottom: 30px;
   color: rgba(27, 27, 27, 0.847) !important;
+  font-size: 24px;
 }
 .section-title-area .title--left--style2 {
   font-size: 3.125rem;
@@ -5917,6 +5918,15 @@ input::placeholder {
   padding-bottom: 10px;
   -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.section-title-area--style2 p{
+  font-size: 20px;
+  font-weight: 600;
+  color: #05103B;
+
+}
+.section-title-area--style2 span{
+  color: #f7af05 ;
 }
 .section-title-area--style2 .subtitle:before {
   content: "";
@@ -15031,7 +15041,7 @@ a.scroll-top.show {
   background-color: #f7af05;
   font-size: 20px;
   font-weight: 700;
-  color: #222;
+  color: white;
 }
 .history-grid__single .content-body {
   padding: 20px 20px 25px;
