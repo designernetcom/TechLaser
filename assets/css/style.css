@@ -4343,8 +4343,9 @@ https://templatemo.com/tm-557-grad-school
     padding: 46px 16px;
     -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
     transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-    color:#f7af05;
+    color:#ffffff;
     font-size: 0.8125rem;
+  text-transform: uppercase !important;
 
   }
 
@@ -22352,15 +22353,24 @@ https://templatemo.com/tm-557-grad-school
   
 
   .big-heading h4{
-    font-size: 110px !important;
+    font-size: 60px !important;
   }
   .vission-section h4{
     font-size: 60px !important;
   }
+  .middle-name h4{
+    color:#f7af05;
+    font-size: 28px ;
+  }
+  
+  .middle-name{
+    display: flex;
+    justify-content: center;
+  }
   @media  (max-width: 767px) {
 
     .section-title-area--style2 .subtitle{
-      font-size: 38px !important;
+      font-size: 30px !important;
     }
     .lets-tack{
       font-size: 38px !important;
@@ -22370,6 +22380,10 @@ https://templatemo.com/tm-557-grad-school
     }
     .about-vision-section-01{
       padding-bottom: 0px;
+    }
+    .middle-name h4{
+      color:#f7af05;
+      font-size: 20px !important;
     }
 
   }
@@ -22402,7 +22416,7 @@ https://templatemo.com/tm-557-grad-school
   font-size: 110px !important;
 }
 .boots-section-row p{
-  font-size: 25px !important;
+  font-size: 18px !important;
   color: white !important;
   line-height: 32px ;
 }
