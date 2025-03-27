@@ -22359,8 +22359,11 @@ https://templatemo.com/tm-557-grad-school
   }
   @media  (max-width: 767px) {
 
-    .big-heading h4{
-      font-size: 40px !important;
+    .section-title-area--style2 .subtitle{
+      font-size: 38px !important;
+    }
+    .lets-tack{
+      font-size: 38px !important;
     }
     .vission-section h4{
       font-size: 30px !important;
