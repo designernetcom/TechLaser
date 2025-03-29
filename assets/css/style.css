@@ -2019,6 +2019,7 @@ https://templatemo.com/tm-557-grad-school
   .product-details h3 {
     text-align: center;
     margin-top: 20px;
+    font-size: 33px;
   }
 
   @media only screen and (min-width: 1300px) {
@@ -5553,6 +5554,8 @@ https://templatemo.com/tm-557-grad-school
     display: block;
     padding: 11px 30px;
     color: #999;
+    font-size: medium !important;
+    font-family: "Poppins", sans-serif !important;
   }
 
   .submenu li > a:hover {
@@ -15646,6 +15649,7 @@ https://templatemo.com/tm-557-grad-school
     height :210px !important;
     width: 100% !important;
     background-color: black !important;
+    border-radius: 20px;
   }
 
   .project-grid-post__area {
@@ -22018,7 +22022,7 @@ https://templatemo.com/tm-557-grad-school
   .multilavel-anchortag {
     font-size: 19px !important;
     color: black !important;
-    font-weight: 600;
+    font-weight: 500;
   }
 
   .multilavel-anchortag :hover {
@@ -22037,23 +22041,23 @@ https://templatemo.com/tm-557-grad-school
   }
 
   .about-on-top h6 {
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 17px;
+    font-weight: 500;
     color:white;
     margin-bottom: none !important;
     word-spacing: 5px;
   }
 
   .about-on-top h4 {
-    font-size: 19px;
-    font-weight: 600;
+    font-size: 25px;
+    font-weight: 500;
     color:white;
-    word-spacing: 5px;
+    word-spacing: 7px;
     margin-bottom: none !important;
   }
 
   .yellow-hr {
-    width: 40%;
+    width: 47%;
     height: 2px;
     background-color: #f7af05;
     color: #f7af05;
@@ -22113,6 +22117,7 @@ https://templatemo.com/tm-557-grad-school
     font-weight: 500;
     line-height: 30px;
     color: #000 !important;
+    text-align: center;
   }
 
   .bottom-text-product {
@@ -22271,6 +22276,7 @@ https://templatemo.com/tm-557-grad-school
     margin-top: -200px !important;
   }
 
+  /* --------------------------------------------------------------------------------------------------------- */
   .why-section-card h4 {
     color: #f7af05 !important;
     font-size: 21px;
@@ -22296,9 +22302,14 @@ https://templatemo.com/tm-557-grad-school
     height: 80px;
     font-size: 30px;
     font-weight: 700;
-    border-radius: 50px;
-    border: 1px solid #f7af05;
+   border-radius: 50%;
+    border-left: 3px solid #f7af05;
+    border-bottom: 1px solid #f7af05;
+    border-top: 2px  linear-gradient(to top,d7b600, f5cd00);
+    border-right: 3px  linear-gradient(to right,d7b600, f5cd00);
     padding: 17px;
+
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22344,7 +22355,24 @@ https://templatemo.com/tm-557-grad-school
       position: absolute;
       bottom: -25px;
         left: -27px;
+        width: 80px;
+    height: 80px;
+    font-size: 30px;
+    font-weight: 700;
+   border-radius: 50%;
+    border-left: 3px solid #f7af05;
+    border-bottom: 1px solid #f7af05;
+    border-top: 2px  linear-gradient(to top,d7b600, f5cd00);
+    border-right: 3px  linear-gradient(to right,d7b600, f5cd00);
+    padding: 17px;
+
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
     }
+
+  
     .laser-cut-procrss{
       padding-bottom: 0px !important;
     }
@@ -22354,7 +22382,10 @@ https://templatemo.com/tm-557-grad-school
     margin-top: -300px;
   }
   .laser-cut-procrss{
-    padding-bottom: 30px !important;
+    padding-bottom:30px !important;
+  }
+  .process-05{
+    padding-bottom: 90px;
   }
   
 
@@ -22418,20 +22449,30 @@ https://templatemo.com/tm-557-grad-school
         min-height: 70vh !important;
         background-position: center !important;
     }
+
+
+    
     .card-number {
-      width: 60px;
-      height: 60px;
-      font-size: 30px;
-      font-weight: 700;
-      border-radius: 50px;
-      border: 1px solid #f7af05;
-      padding: 17px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: absolute;
-      top: -18px;
-      left: -26px;
+     position: absolute;
+     bottom: -25px;
+     width: 80px;
+    height: 80px;
+    font-size: 30px;
+    font-weight: 700;
+   border-radius: 50%;
+    border-left: 3px solid #f7af05;
+    border-bottom: 1px solid #f7af05;
+    border-top: 2px  linear-gradient(to top,d7b600, f5cd00);
+    border-right: 3px  linear-gradient(to right,d7b600, f5cd00);
+    padding: 17px; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    top: -81px;
+    left: -10px;
+  }
+  .why-section-card{
+    margin-top: 50px;
   }
 }
 
@@ -22465,4 +22506,33 @@ https://templatemo.com/tm-557-grad-school
   background-image: url(/assets/img/backgrounds/image\ \(3\).png);
   background-size: cover;
   background-position: center;
+}
+.Product-01{
+  padding-bottom: 32px !important;
+}
+.product-05{
+  padding-bottom: 54px !important;
+}
+.product-06{
+  padding-bottom: 45px !important;
+}
+.procrss-03{
+  padding-bottom: 45px !important;
+}
+@media (max-width:500px) {
+  .Product-01{
+    padding-bottom: 0px !important;
+  }
+  .product-05{
+    padding-bottom: 0px !important;
+  }
+  .product-06{
+    padding-bottom: 0px !important;
+  }
+  .procrss-03{
+    padding-bottom: 0px !important;
+  }
+  .process-05{
+    padding-bottom: 0px;
+  }
 }
